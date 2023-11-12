@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patches>
+	<!-- WLDTEXT3 EDITS -->
+	<Patch name="Update Positions for WLDTEX3">
+		<Description>Allows you to change source image and ingame visual placement of many images related to WLDTEX3</Description>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCF8" mode="DATA">
+			548100000A680000
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD0C" mode="DATA">
+			608100000A680A00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD20" mode="DATA">
+			688100000A681400
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD34" mode="DATA">
+			688100000A681E00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD48" mode="DATA">
+			608100000A682800
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD5C" mode="DATA">
+			608100000A683200
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD70" mode="DATA">
+			5C8100000A683C00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD84" mode="DATA">
+			5C8100000A684600
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CD98" mode="DATA">
+			608100000A685000
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CDAC" mode="DATA">
+			5C8100000A685A00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CDC0" mode="DATA">
+			608100000A686400
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CDD4" mode="DATA">
+			5C8100000A686E00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CDE8" mode="DATA">
+			5C8100000A687800
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CDFC" mode="DATA">
+			5C8100000A688200
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE10" mode="DATA">
+			588100000A688C00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE24" mode="DATA">
+			648100000A689600
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE38" mode="DATA">
+			5C8100000A68A000
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE4C" mode="DATA">
+			688100000A68AA00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE60" mode="DATA">
+			5C8100000A68B400
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE74" mode="DATA">
+			4C8100000A68BE00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE88" mode="DATA">
+			5C8100000A68C800
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CE9C" mode="DATA">
+			608100000A68D200
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CEB0" mode="DATA">
+			648100000A68DC00
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CEC4" mode="DATA">
+			608100000A68E600
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CED8" mode="DATA">
+			648100000A68F000
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CEEC" mode="DATA">
+			648100000A680068
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF00" mode="DATA">
+			648100000A680A68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF14" mode="DATA">
+			608100000A681468
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF28" mode="DATA">
+			648100000A681E68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF3C" mode="DATA">
+			648100000A682868
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF50" mode="DATA">
+			648100000A683268
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF64" mode="DATA">
+			688100000A683C68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF78" mode="DATA">
+			648100000A684668
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CF8C" mode="DATA">
+			708100000A685068
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CFA0" mode="DATA">
+			6C8100000A685A68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CFB4" mode="DATA">
+			688100000A686468
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CFC8" mode="DATA">
+			608100000A686E68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CFDC" mode="DATA">
+			6C8100000A687868
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CFF0" mode="DATA">
+			688100000A688268
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2D004" mode="DATA">
+			688100000A688C68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2D018" mode="DATA">
+			688100000A689668
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2D02C" mode="DATA">
+			688100000A68A068
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2D040" mode="DATA">
+			648100000A68AA68
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB2C" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB30" mode="DATA">
+			0C18C868
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB40" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB44" mode="DATA">
+			0C18C880
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB54" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB58" mode="DATA">
+			0C18C898
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB68" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB6C" mode="DATA">
+			0C18C8B0
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB7C" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB80" mode="DATA">
+			0C18D468
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB90" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CB94" mode="DATA">
+			0C18D480
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBA4" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBA8" mode="DATA">
+			0C18D498
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBB8" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBBC" mode="DATA">
+			0C18D4B0
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBCC" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBD0" mode="DATA">
+			0C18E068
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBE0" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBE4" mode="DATA">
+			0C18E080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBF4" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CBF8" mode="DATA">
+			0C18E098
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC08" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC0C" mode="DATA">
+			0C18E0B0
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC1C" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC20" mode="DATA">
+			1008B868
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC30" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC34" mode="DATA">
+			1008B870
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC44" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC48" mode="DATA">
+			1008B878
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC58" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC5C" mode="DATA">
+			1008B880
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC6C" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC70" mode="DATA">
+			1008B888
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC80" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC84" mode="DATA">
+			1008B890
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC94" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CC98" mode="DATA">
+			1008B898
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCA8" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCAC" mode="DATA">
+			1008B8A0
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCBC" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCC0" mode="DATA">
+			1008B8A8
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCD0" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCD4" mode="DATA">
+			1008B8B0
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCE4" mode="DATA">
+			8080
+		</Location>
+		<Location file="WORLD_WLDCORE_BIN" offset="2CCE8" mode="DATA">
+			1008B8B8
+		</Location>
+	</Patch>
+</Patches>
